@@ -1,0 +1,14 @@
+debug: False # verbose prints logs if True
+reward_model: "mistral_weqweasdas" #refer to constants.py for Alias
+gpus: [2,3,4,5,6,7]
+start: 0 # row to start from dataset.
+cache_dir: "/shared/share_mala/andrew/huggingface/cache"
+
+# Below are settings for reward model
+tokenizer: null # This is automatically set, placed here only if manual override.
+max_length: 8192 # If this is too short, rewards will be different due to truncation.
+trust_remote_code: False
+
+batch_size: 16 
+# Reward Models have bug where rewards are different if batch_size changes. 
+# Sticking to same batch_size is deterministic and consistent.

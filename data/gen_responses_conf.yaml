@@ -1,0 +1,26 @@
+test: false
+models:
+  - cohere/command-r-plus
+  - openai/gpt-4-turbo
+  - openai/gpt-4o
+  - anthropic/claude-3-opus:beta # beta ones are self-moderated.
+  - anthropic/claude-3-sonnet:beta
+  - meta-llama/llama-3-70b-instruct:nitro
+  - google/gemini-pro-1.5
+  - mistralai/mixtral-8x22b-instruct
+test_models:
+  - nousresearch/nous-capybara-7b:free
+  - huggingfaceh4/zephyr-7b-beta:free
+  - meta-llama/llama-3-8b-instruct:free
+  - microsoft/phi-3-medium-128k-instruct:free
+temperature: 1.0
+responses_per_prompt: 1
+max_length: 512
+top_p: 1 
+top_k: 0 
+openrouter_rate_limit: 50
+shuffle_dataset: true # if true, we will shuffle dataset, then pick [start_index:end_index] of shuffled dataset, then filter for pre_existing_dataset, then generate. 
+pre_existing_dataset:  "andrewsiah/filtered_personalization_prompt_response" # huggingface path
+output_huggingface_dataset_hub: "andrewsiah/personalization_prompt_response" # huggingface path
+prompts_dataset: "andrewsiah/short_personalization_prompts" # huggingface path
+local_save_filepath: "/shared/share_mala/personal_llm" # local filepath to save all responses
