@@ -1,0 +1,16 @@
+Failed to run VanillaICLGenerator with binary_pref and seed 42: Command '['python', 'eval.py', '--generator=VanillaICLGenerator', '--seed=42', '--eval_type=binary_pref']' returned non-zero exit status 1.
+Failed to run OneShotICLGenerator with reward and seed 42: Command '['python', 'eval.py', '--generator=OneShotICLGenerator', '--seed=42', '--eval_type=reward']' returned non-zero exit status 1.
+Failed to run OneShotICLGenerator with binary_pref and seed 42: Command '['python', 'eval.py', '--generator=OneShotICLGenerator', '--seed=42', '--eval_type=binary_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLGenerator with reward and seed 42: Command '['python', 'eval.py', '--generator=ThreeShotICLGenerator', '--seed=42', '--eval_type=reward']' returned non-zero exit status 1.
+Failed to run ThreeShotICLGenerator with binary_pref and seed 42: Command '['python', 'eval.py', '--generator=ThreeShotICLGenerator', '--seed=42', '--eval_type=binary_pref']' returned non-zero exit status 1.
+Failed to run OneShotICLGenerator with reward and seed 3: Command '['python', 'eval.py', '--generator=OneShotICLGenerator', '--seed=3', '--eval_type=reward']' returned non-zero exit status 1.
+Failed to run OneShotICLGenerator with binary_pref and seed 3: Command '['python', 'eval.py', '--generator=OneShotICLGenerator', '--seed=3', '--eval_type=binary_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLGenerator with binary_pref and seed 27: Command '['python', 'eval.py', '--generator=ThreeShotICLGenerator', '--seed=27', '--eval_type=binary_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLGenerator with binary_pref and seed 27: Command '['python', 'eval.py', '--generator=ThreeShotICLGenerator', '--seed=27', '--eval_type=binary_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLAlgorithm with pairwise_pref and seed 27: Command '['python', 'eval.py', '--algorithm=ThreeShotICLAlgorithm', '--seed=27', '--eval_type=pairwise_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLAlgorithm with pairwise_pref and seed 27: Command '['python', 'eval.py', '--algorithm=ThreeShotICLAlgorithm', '--seed=27', '--eval_type=pairwise_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLAlgorithm with pairwise_pref and seed 27: Command '['python', 'eval.py', '--algorithm=ThreeShotICLAlgorithm', '--seed=27', '--eval_type=pairwise_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLAlgorithm with pairwise_pref and seed 27: Command '['python', 'eval.py', '--algorithm=ThreeShotICLAlgorithm', '--seed=27', '--eval_type=pairwise_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLAlgorithm with pairwise_pref and seed 27: Command '['python', 'eval.py', '--algorithm=ThreeShotICLAlgorithm', '--seed=27', '--eval_type=pairwise_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICLAlgorithm with pairwise_pref and seed 27: Command '['python', 'eval.py', '--algorithm=ThreeShotICLAlgorithm', '--seed=27', '--eval_type=pairwise_pref']' returned non-zero exit status 1.
+Failed to run ThreeShotICL with pairwise_pref and seed 27: Command '['python', 'eval.py', '--algorithm=ThreeShotICL', '--seed=27', '--eval_type=pairwise_pref']' returned non-zero exit status 1.
