@@ -1,13 +1,13 @@
-personal_llm/data/gen_response_logs.txt
-personal_llm/eval/scores/*
-!personal_llm/eval/scores/all_scores.csv
-personal_llm/archive
-personal_llm/data/pipe_outputs.txt
-personal_llm/eval/test_logs.txt
-personal_llm/eval/sweep_logs.txt
-personal_llm/eval/similar_pairs.txt
-personal_llm/eval/sweep_logs.txt
-!personal_llm/data/.env.example
+PersonalLLM/data/gen_response_logs.txt
+PersonalLLM/eval/scores/*
+!PersonalLLM/eval/scores/all_scores.csv
+PersonalLLM/archive
+PersonalLLM/data/pipe_outputs.txt
+PersonalLLM/eval/test_logs.txt
+PersonalLLM/eval/sweep_logs.txt
+PersonalLLM/eval/similar_pairs.txt
+PersonalLLM/eval/sweep_logs.txt
+!PersonalLLM/data/.env.example
 
 
 
